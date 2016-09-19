@@ -2,10 +2,12 @@
 
 ## Create
 . database
+
 . table
 
 ## Drop
 . database
+
 .table
 
 ## Alter
