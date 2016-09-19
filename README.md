@@ -19,14 +19,14 @@ mysql> CREATE DATABASE etudiants;
 
 .. créer les utilisateurs
 
-- Longue
+- Version Longue
 
 ```
 mysql> CREATE USER 'etudiants'@'localhost' IDENTIFIED BY 'etudiants_1';
 mysql> GRANT ALL ON etudiants.* TO 'etudiants'@'localhost';
 ```
 
-- Simplifiee
+- Version Simplifiee
 ```
 mysql> GRANT ALL ON etudiants.* TO 'etudiants'@'%' IDENTIFIED BY 'etudiants_1';
 ```
