@@ -9,12 +9,19 @@
 ```
 
 
-. Dans le CLI créer une base de données
+. Dans le CLI 
+
+.. créer une base de données
+
+```
+mysql> CREATE DATABASE etudiants;
+```
+
+.. créer les utilisateurs
 
 - Longue
 
 ```
-mysql> CREATE DATABASE etudiants;
 mysql> CREATE USER 'etudiants'@'localhost' IDENTIFIED BY 'etudiants_1';
 mysql> GRANT ALL ON etudiants.* TO 'etudiants'@'localhost';
 ```
