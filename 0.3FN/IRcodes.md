@@ -1,22 +1,31 @@
-1FN
+# Forme Normale:
+
+## 1FN
+```
 MYCODES{
 sony,samsung,LG_tv1,samsung_AirConV63,2EF3C,1F023,LG,Sony_Bravia42,100110001,power,vol+,vol-
 }
+```
 
-2FN
+## 2FN
+```
 Brand{sony,samsung,lg}
 TVs{LG_tv1,sony_Bravia42,samsung_80,samsung_90_4k}
 Codes{2EF3C,1F023,100110001}
 Codename{power,vol+,vol-}
+```
 
-3FN
+## 3FN
+```
 Brand{brand_ID,brand_name}
 Model(brand_ID,model_ID,model_name)
 Codelist{brand_ID,model_ID,codelist_ID,code_list}
 Codes{{brand_ID,model_ID,codelist_ID,code_list_ID,codes_ID,codesname_ID}
 Codenames{code_ID,codename_name}
+```
 
-exemple 3fn
+## exemple 3fn
+```
 Brand
 {
 1,sony
@@ -53,4 +62,4 @@ Codenames
 2,vol+
 3,vol-
 }
-
+```
