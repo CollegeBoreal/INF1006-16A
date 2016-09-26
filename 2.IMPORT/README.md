@@ -16,3 +16,10 @@ $ docker exec -i some-mysql mysql -u etudiants -p etudiants < ~/Developer/INF100
 ```
 
 http://www.xarg.org/2012/08/running-standard-deviation-in-mysql/
+
+changer la table 
+```
+$ docker exec -i some-mysql mysql -u etudiants -p etudiants < ~/Developer/INF1006-16A/2.IMPORT/AlterTable_Currency.sql
+
+```
+
