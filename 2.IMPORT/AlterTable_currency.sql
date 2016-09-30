@@ -1,1 +1,1 @@
-ALTER TABLE cobalt Currency varchar(3);
+ALTER TABLE cobalt add Currency varchar(3);
