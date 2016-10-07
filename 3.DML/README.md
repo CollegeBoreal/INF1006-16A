@@ -1,4 +1,12 @@
+
+
 # Pratique de manipulation de données
+
+### Exercice:
+
+```
+Imprimer le nom et le montant de la facture totale des personnes habitant la ville de Lubumbashi
+```
 
 ### Example de bases de données
 http://dev.mysql.com/doc/index-other.html
