@@ -21,9 +21,51 @@ ValeurNutritif
 
 ## Troisieme Forme Normale:
 ```
-(aliments, TypeAliment)
-(1,1) (1,2) (1,3) (1,4) (1,5) (1,6) (1,7) (1,8) (2,9) (2,10) (2,11) (2,12) (2,13) (2,14) (2,15) (2,16) (2,17) (3,18) (3,19) (3,20) (4,21) (4,22) (4,23) (4,24) (4,25)
+CategorisationAlimentation
+   {
+      CategorisationAlimentation_ID
+      aliments_ID, 
+      typeAliment_ID
+   };
+   
+CategorisationAlimentation
+   {
+      1,1,1
+      2,1,2
+      3,1,3 
+      4,1,4
+      5,1,5
+      6,1,6 
+      7,1,7
+      8,1,8
+      9,2,9
+      10,2,10
+      11,2,11
+      12,2,12
+      13,2,13
+      14,2,14
+      15,2,15
+      16,2,16
+      17,2,17
+      18,3,18
+      19,3,19
+      20,3,20
+      21,4,21
+      22,4,22
+      23,4,23
+      24,4,24
+      25,4,25
+   };
 
+BienfaitDesAliment
+   {
+   CategorisationAlimentation_ID
+   ValeurNutritif_ID
+   }
+BienfaitDesAliments
+   {
+      1,
+	  };
 (ValeurNutritif, Aliment, Nom)
 (1, 18, Quinoa) 
 (1, 20, Lentilles) 
