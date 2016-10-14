@@ -65,7 +65,7 @@ BienfaitDesAliment
 BienfaitDesAliments
    {
       1,
-	  };
+   };
 (ValeurNutritif, Aliment, Nom)
 (1, 18, Quinoa) 
 (1, 20, Lentilles) 
