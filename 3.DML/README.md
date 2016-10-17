@@ -7,6 +7,11 @@
 ```
 Imprimer le nom et le montant de la facture totale des personnes habitant la ville de Lubumbashi
 ```
+* Correction
+Se référer au fichier suivant:
+
+[JOIN](JOIN.md)
+
 
 ### Example de bases de données
 http://dev.mysql.com/doc/index-other.html
