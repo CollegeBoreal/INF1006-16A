@@ -31,3 +31,7 @@ mysql> GRANT ALL ON etudiants.* TO 'etudiants'@'localhost';
 mysql> GRANT ALL ON etudiants.* TO 'etudiants'@'%' IDENTIFIED BY 'etudiants_1';
 ```
 
+### Documentation
+
+http://sql.sh/ressources/cours-sql-sh-.pdf
+
