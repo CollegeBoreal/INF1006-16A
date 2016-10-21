@@ -1,3 +1,9 @@
+# Devoirs
+
+* Left Join sur BD employees
+
+* dump d'employees (fichier sql)
+
 # Pratique de manipulation de données
 
 ### Example de bases de données
