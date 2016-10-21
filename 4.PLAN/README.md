@@ -14,4 +14,4 @@ $ docker exec  -i some-mysql  mysql -u etudiants -p<MDP> employees < ~/employees
 
 ## Schema
 
-(Employees)[https://github.com/CollegeBoreal/INF1006-16A/blob/master/4.PLAN/Employees.png]
+![alt tag](https://github.com/CollegeBoreal/INF1006-16A/blob/master/4.PLAN/Employees.png)
