@@ -1,0 +1,4 @@
+
+# Commande de LEFT JOIN
+
+
