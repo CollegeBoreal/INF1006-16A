@@ -1,5 +1,5 @@
 
-# Commande de LEFT JOIN
+# Commande de LEFT JOIN sur la base de donnee Sakila
 
 ```
 
@@ -13,3 +13,10 @@ or country like 'Algeria';
 
 ```
 
+# Commande de LEFT JOIN sur la base de donnee Employees
+
+```
+
+select 
+
+```
