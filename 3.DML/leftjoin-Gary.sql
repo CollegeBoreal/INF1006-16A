@@ -16,7 +16,21 @@ or country like 'Algeria';
 # Commande de LEFT JOIN sur la base de donnee Employees
 
 ```
+# Le nombre d`employes qui se font payer 
 
-select 
+```
+Select count(employees.last_name)
+from employees 
+left join salaries on employees.emp_no = salaries.emp_no
+where employees.last_name like 'g%';
+```
+# Ajouter un employer
+```
+insert into employees values (600001,'1990.01.01', 'Julien', 'Giebel2', 'F', '1997.07.04');
+
+```
+# me montre lemployee 600000
+```
+select * from employees where employees.emp_no = 600000;
 
 ```
