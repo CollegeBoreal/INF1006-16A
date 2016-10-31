@@ -10,7 +10,7 @@ Chaque eleve doit avoir un repertoire different
 - Schema Conceptuel (Diagramme de donnees) E/R en format png
 - Contraintes d'integrites fonctionnelles (PK, FK, ...) Cascading Bonus
 - Comprehension logique du plan de performance (Index, Vue, ...)
-- Complexite du schema (Bonus)
+- Complexite du schema (Bonus - Subjectif Professeur)
 
 ### DML
 - Qualite de l'initialisation de la base de donnee (Premieres donnees permettant l'utilisation de la base)
