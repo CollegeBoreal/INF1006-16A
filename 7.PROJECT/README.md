@@ -17,5 +17,9 @@ Chaque eleve doit avoir un repertoire different
 - Structure fichier de la base en .sql et fichiers de donnees en .dump
 - Scripts pour aider le professeur a charger les donnees. (considerer some-mysql comme nom de conteneur)
 
+### A rendre:
+
+Novembre 18, 2016
+
 
 
