@@ -6,11 +6,13 @@ Ajax, Brampton, Burlington, Georgetown, Markham, Milton, Mississauga, New Market
 Scarborough, Toronto, Vaughan, Central Ajax, Applecroft, Bramalea, Madoc, Aldershot, Maple,
 Delrex, Meadowglen, Cornell, Markville, Clarke, Dempsey,Meadowvale, Erin mills, Armitage, 
 Central New Market, Ford, Bronte, Ford, Bronte, Agincourt, Malvern, China Town, Toronto Islands, 
-Woodbridge, Thornhill 
+Woodbridge, Thornhill, Durham, York, Peel, Halton, City of Toronto
 ```
 # Deuxieme Forme Normale. 
 ```
 villes{villes_id, villes_nom}
+
+villes
 {
    1, Ajax
    2, Brampton
@@ -27,6 +29,8 @@ villes{villes_id, villes_nom}
 }
 
 quartiers{quartier_id, quartier_nom}
+
+quartiers
 {
    1, Central Ajax
    2, Applecroft
@@ -54,6 +58,17 @@ quartiers{quartier_id, quartier_nom}
    24, Thornhill
 }
 
+regions{regions_id, regions_nom}
+
+regions 
+{
+   1,Durham
+   2,Peel
+   3,Halton
+   4,York
+   5,City of Toronto
+}
+
 ```
 # Troisieme Forme Normale 
 ```
@@ -61,17 +76,24 @@ Endroits{villes_id,quartiers_id}
 
 ```
 
-# Reference :
+### Reference :
 
-# Ajax{Central Ajax, Applecroft}
-# Brampton{Bramalea, Madoc}
-# Burlington{Aldershot, Maple}
-# Georgetown{Delrex, Meadowglen}
-# Markham{Cornell,Markville}
-# Milton{Clarke, Dempsey}
-# Mississauga{Meadowvale, Erin mills}
-# New Market{Armitage, Central New Market}
-# Oakville{Ford, Bronte}
-# Scarborough{Agincourt, Malvern}
-# Toronto{China Town, Toronto Islands}
-# Vaughan{Woodbridge, Thornhill}
+### Ajax{Central Ajax, Applecroft}
+### Brampton{Bramalea, Madoc}
+### Burlington{Aldershot, Maple}
+### Georgetown{Delrex, Meadowglen}
+### Markham{Cornell,Markville}
+### Milton{Clarke, Dempsey}
+### Mississauga{Meadowvale, Erin mills}
+### New Market{Armitage, Central New Market}
+### Oakville{Ford, Bronte}
+### Scarborough{Agincourt, Malvern}
+### Toronto{China Town, Toronto Islands}
+### Vaughan{Woodbridge, Thornhill}
+
+
+### Halton{Milton, Oakville, Burlington, Georgetown}
+### Peel{Brampton, Mississauga}
+### City of Toronto{Toronto}
+### Durham{ Ajax}
+### York {Scarborough, Vaughan, Markham, New Market}
