@@ -21,11 +21,11 @@ $ cd INF1006-16A
 . Installer MySQL
 
 ```
-$ docker run --name INF1006-mysql -e MYSQL_ROOT_PASSWORD=password -p 3306:3306 -d mysql:latest 
+$ docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=password -p 3306:3306 -d mysql:latest 
 ```
 
 . Executer la commande d'accer a MySQL
 
 ```
-$ docker exec -it INF1006-mysql bash
+$ docker exec -it some-mysql bash
 ```
