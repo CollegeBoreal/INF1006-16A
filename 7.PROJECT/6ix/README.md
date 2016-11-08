@@ -10,3 +10,4 @@ qui désirent visiter d’autres places.
 ![alt tag](https://github.com/CollegeBoreal/INF1006-16A/tree/Gary/7.PROJECT/6ix/Six.png
 
 # Ajouter Drop database
+
