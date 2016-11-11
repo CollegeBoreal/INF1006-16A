@@ -25,7 +25,7 @@ $ docker exec -i some-mysql mysql -u root -p$MYSQL_ROOT_PASSWORD Six < ~/Develop
 ```
 ## Commande pour mysqldump
 ```
-$ docker exec some-mysql sh -c 'exec mysqldump Six -uroot -p"$MYSQL_ROOT_PASSWORD"' > ./dump-Six.sql
+$ docker exec some-mysql sh -c 'exec mysqldump Six -u root -p"$MYSQL_ROOT_PASSWORD"' > ./dump-Six.sql
 ```
 ## Drop la base de donnee Six
 ```
