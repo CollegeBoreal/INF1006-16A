@@ -1,6 +1,6 @@
 # Exemples de code
 
-## client.py
+## city.py
 Exemple de code API avec MYSQLPython
 
 ## Data.py
