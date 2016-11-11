@@ -1,7 +1,7 @@
 -- # Premierement la creation d'une base de donnee se fait avec cette commande. 
 -- # Le Query est une la commande que tu donne au program pour qu'il l'execute. 
 -- # Query est comme poser une question. 
-CREATE SCHEMA `Six` ;
+
 -- Commande pour se placer precisement sur la base de donnee qui de nomme Six
 USE `Six` ;
 
@@ -11,7 +11,7 @@ CREATE TABLE `Six`.`region` (
   `nom_region` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`id_region`));
   
--- Creation de la table ville
+-- Creation de la table ville. on peut voir qu'il y a un foreign key sur la table region et le champ id_region`
 CREATE TABLE `Six`.`ville` (
   `id_ville` INT(11) NOT NULL,
   `nom_ville` VARCHAR(45) NULL DEFAULT NULL,
@@ -24,7 +24,8 @@ CREATE TABLE `Six`.`ville` (
     ON DELETE NO ACTION
     ON UPDATE NO ACTION);
 
--- Creation de la table quartier 
+-- Creation de la table quartier. On peut voir qu'il y a deux foreign key, un sur la table ville et le champ 
+-- ville_id et l'autre sur le foreign key qu est lie au FK de la table ville. 
 
 CREATE TABLE `Six`.`quartier` (
   `id_quartier` INT(11) NOT NULL,
