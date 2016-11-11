@@ -1,10 +1,10 @@
 # ORM (Object Relational Mapping)
 
-ORM - Lien (Mapping) entre l'orienté objet (OOP) et la forme relationnelle (Relation) 
+* ORM - Lien (Mapping) entre l'orienté objet (OOP) et la forme relationnelle (Relation) 
 
 ![alt tag](https://github.com/CollegeBoreal/INF1006-16A/blob/master/6.ORM/ORM.png)
 
-L'ORM permet de relier les objets et l'API des drivers (i.e. MySQL ou Redis) 
+* L'ORM permet de relier les objets et l'API des drivers (i.e. MySQL ou Redis) 
 
 ![alt tag](https://github.com/CollegeBoreal/INF1006-16A/blob/master/6.ORM/api_spi.png)
 
