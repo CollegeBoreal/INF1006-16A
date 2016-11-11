@@ -11,13 +11,17 @@ La base de donnee classe les villes par 3 tables; regions, villes et quartiers.
 ```
 $ docker exec -it some-mysql mysql -u root -p -e "CREATE SCHEMA `Six`;"
 ```
+## Commande pour ajouter Grant all on etudiant 
+```
+$
+```
 ## Commande pour ajouter la structure de la base de donne sur mysql
 ```
-$ docker exec -i some-mysql  mysql -u etudiants -p$MYSQL_ROOT_PASSWORD Six < ~/Developer/Docker/INF1006-16A/7.PROJECT/6ix/Six_Schema.sql
+$ docker exec -i some-mysql  mysql -u root -p$MYSQL_ROOT_PASSWORD Six < ~/Developer/Docker/INF1006-16A/7.PROJECT/6ix/Six_Schema.sql
 ```
 ## Commande pour ajouter les donnes dans la table 
 ```
-$ docker exec -i some-mysql mysql -u etudiants -p$MYSQL_ROOT_PASSWORD Six < ~/Developer/Docker/INF1006-16A/7.PROJECT/6ix/Six_data.sql
+$ docker exec -i some-mysql mysql -u root -p$MYSQL_ROOT_PASSWORD Six < ~/Developer/Docker/INF1006-16A/7.PROJECT/6ix/Six_data.sql
 ```
 ## Commande pour mysqldump
 ```
