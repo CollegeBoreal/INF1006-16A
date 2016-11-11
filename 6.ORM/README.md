@@ -8,6 +8,11 @@
 
 ![alt tag](https://github.com/CollegeBoreal/INF1006-16A/blob/master/6.ORM/api_spi.png)
 
-## Examples de code ORM en SQLAlchemy
-http://docs.sqlalchemy.org/en/latest/orm/tutorial.html
-http://www.dangtrinh.com/2013/06/sqlalchemy-python-module-with-mysql.html
+
+* Le projet consiste a faire dialoguer l'APP mobile et web au bases de données
+
+![alt tag](https://github.com/CollegeBoreal/INF1006-16A/blob/master/6.ORM/projet.png)
+
+## Examples de code ORM en SQLAlchemy  
+http://docs.sqlalchemy.org/en/latest/orm/tutorial.html  
+http://www.dangtrinh.com/2013/06/sqlalchemy-python-module-with-mysql.html  
