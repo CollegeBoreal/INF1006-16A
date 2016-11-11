@@ -71,25 +71,26 @@ regions
 ## Troisieme Forme Normale 
 ```
 Endroits{villes_id,quartiers_id}
-
+```
 ### Reference :
+```
+ Ajax{Central Ajax, Applecroft}
+ Brampton{Bramalea, Madoc}
+ Burlington{Aldershot, Maple}
+ Georgetown{Delrex, Meadowglen}
+ Markham{Cornell,Markville}
+ Milton{Clarke, Dempsey}
+ Mississauga{Meadowvale, Erin mills}
+ New Market{Armitage, Central New Market}
+ Oakville{Ford, Bronte}
+ Scarborough{Agincourt, Malvern}
+ Toronto{China Town, Toronto Islands}
+ Vaughan{Woodbridge, Thornhill}
 
-### Ajax{Central Ajax, Applecroft}
-### Brampton{Bramalea, Madoc}
-### Burlington{Aldershot, Maple}
-### Georgetown{Delrex, Meadowglen}
-### Markham{Cornell,Markville}
-### Milton{Clarke, Dempsey}
-### Mississauga{Meadowvale, Erin mills}
-### New Market{Armitage, Central New Market}
-### Oakville{Ford, Bronte}
-### Scarborough{Agincourt, Malvern}
-### Toronto{China Town, Toronto Islands}
-### Vaughan{Woodbridge, Thornhill}
 
-
-### Durham{ Ajax}
-### Peel{Brampton, Mississauga}
-### Halton{Milton, Oakville, Burlington, Georgetown}
-### York {Scarborough, Vaughan, Markham, New Market}
-### City of Toronto{Toronto}
+ Durham{ Ajax}
+ Peel{Brampton, Mississauga}
+ Halton{Milton, Oakville, Burlington, Georgetown}
+ York {Scarborough, Vaughan, Markham, New Market}
+ City of Toronto{Toronto}
+ ```
