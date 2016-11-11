@@ -9,7 +9,7 @@
 ![alt tag](https://github.com/CollegeBoreal/INF1006-16A/blob/master/6.ORM/api_spi.png)
 
 
-* Le projet consiste a faire dialoguer l'APP mobile et web au bases de données
+* Le projet consiste a faire dialoguer l'APP mobile et web aux bases de données
 
 ![alt tag](https://github.com/CollegeBoreal/INF1006-16A/blob/master/6.ORM/projet.png)
 
