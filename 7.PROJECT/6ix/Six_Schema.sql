@@ -40,4 +40,3 @@ CREATE TABLE `Six`.`quartier` (
     ON DELETE NO ACTION
     ON UPDATE NO ACTION);
 	
-	--------------------------------------------------------

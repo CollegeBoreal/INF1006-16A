@@ -1,6 +1,18 @@
 -- Les villes et les quartiers des divers regions du GTA
 -- Ici on trouves les donnees qui vont se trouver dans chaque table de la base de donnee.
 
+
+
+
+--                                      CHANGER CE QUI EST EN STRING 
+
+-- Inserer les donnes dans la table regions 
+INSERT INTO `Six`.`region` (`id_region`, `nom_region`) VALUES ('1', 'Durham');
+INSERT INTO `Six`.`region` (`id_region`, `nom_region`) VALUES ('2', 'Peel');
+INSERT INTO `Six`.`region` (`id_region`, `nom_region`) VALUES ('3', 'Halton');
+INSERT INTO `Six`.`region` (`id_region`, `nom_region`) VALUES ('4', 'York');
+INSERT INTO `Six`.`region` (`id_region`, `nom_region`) VALUES ('5', 'City of Toronto');
+
 -- Insertion des donnees dans la table ville 
 INSERT INTO `Six`.`ville` (`id_ville`, `nom_ville`, `region_id_region`) VALUES ('1', 'Ajax', '1');
 INSERT INTO `Six`.`ville` (`id_ville`, `nom_ville`, `region_id_region`) VALUES ('2', 'Brampton', '2');
@@ -41,9 +53,3 @@ INSERT INTO `Six`.`quartier` (`id_quartier`, `nom_quartier`, `ville_id_ville`, `
 INSERT INTO `Six`.`quartier` (`id_quartier`, `nom_quartier`, `ville_id_ville`, `ville_region_id_region`) VALUES ('23', 'Woodbridge', '12', '4');
 INSERT INTO `Six`.`quartier` (`id_quartier`, `nom_quartier`, `ville_id_ville`, `ville_region_id_region`) VALUES ('24', 'Thornhill', '12', '4');
 
--- Inserer les donnes dans la table regions 
-INSERT INTO `Six`.`region` (`id_region`, `nom_region`) VALUES ('1', 'Durham');
-INSERT INTO `Six`.`region` (`id_region`, `nom_region`) VALUES ('2', 'Peel');
-INSERT INTO `Six`.`region` (`id_region`, `nom_region`) VALUES ('3', 'Halton');
-INSERT INTO `Six`.`region` (`id_region`, `nom_region`) VALUES ('4', 'York');
-INSERT INTO `Six`.`region` (`id_region`, `nom_region`) VALUES ('5', 'City of Toronto');
