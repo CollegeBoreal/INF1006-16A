@@ -9,19 +9,19 @@ La base de donnee classe les villes par 3 tables; regions, villes et quartiers.
 
 ### Commande qui sert a creer la base de donnee Six 
 ```
-$ docker exec -it some-mysql mysql -u root -p -e "CREATE SCHEMA `Six`;"
+$ docker exec -it some-mysql mysql -u root -p$MYSQL_ROOT_PASSWORD -e "create database Six;"
 ```
 ### Commande pour ajouter Grant all on etudiant 
 ```
-$ docker exec -it some-mysql mysql -u root -p$MYSQL_ROOT_PASSWORD -e "grant all on Six.* to 'etudiants'@'%' identified by 'etudiants_1';" 
+$ docker exec -i some-mysql mysql -u root -p$MYSQL_ROOT_PASSWORD -e "grant all on Six.* to 'etudiants'@'%' identified by 'etudiants_1';" 
 ```
 ### Commande pour ajouter la structure de la base de donne sur mysql
 ```
-$ docker exec -i some-mysql  mysql -u root -p$MYSQL_ROOT_PASSWORD Six < ~/Developer/Docker/INF1006-16A/7.PROJECT/6ix/Six_Schema.sql
+$ $ docker exec -i some-mysql  mysql -u etudiants -petudiants_1 Six < ~/Developer/Docker/INF1006-16A/7.PROJECT/6ix/Six_Schema.sql
 ```
 ### Commande pour ajouter les donnes dans la table 
 ```
-$ docker exec -i some-mysql mysql -u root -p$MYSQL_ROOT_PASSWORD Six < ~/Developer/Docker/INF1006-16A/7.PROJECT/6ix/Six_data.sql
+$ docker exec -i some-mysql  mysql -u etudiants -petudiants_1 Six < ~/Developer/Docker/INF1006-16A/7.PROJECT/6ix/Six_data.sql
 ```
 ### Commande pour mysqldump
 ```

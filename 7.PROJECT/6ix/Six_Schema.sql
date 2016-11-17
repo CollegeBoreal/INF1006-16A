@@ -32,11 +32,11 @@ CREATE TABLE Six.quartier (
   nom_quartier VARCHAR(45) NOT NULL,
   ville_id_ville INT(11) NOT NULL,
   ville_region_id_region INT(11) NOT NULL,
-  PRIMARY KEY (id_quartier, ville_id_ville, ville_region_id_region),
-  INDEX fk_quartier_ville1_idx (ville_id_ville ASC, ville_region_id_region ASC),
+  PRIMARY KEY (id_quartier, ville_id_ville/*, ville_region_id_region*/),
+  INDEX fk_quartier_ville1_idx (ville_id_ville ASC/*, ville_region_id_region ASC*/),
   CONSTRAINT fk_quartier_ville1
-    FOREIGN KEY (ville_id_ville , ville_region_id_region)
-    REFERENCES Six.ville (id_ville , region_id_region)
+    FOREIGN KEY (ville_id_ville/* , ville_region_id_region*/)
+    REFERENCES Six.ville (id_ville /*, region_id_region*/)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION);
 	

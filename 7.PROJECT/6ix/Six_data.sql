@@ -30,7 +30,7 @@ INSERT INTO Six.quartier (id_quartier, nom_quartier, ville_id_ville, ville_regio
 INSERT INTO Six.quartier (id_quartier, nom_quartier, ville_id_ville, ville_region_id_region) VALUES (5, 'Aldershot', 3, 3);
 INSERT INTO Six.quartier (id_quartier, nom_quartier, ville_id_ville, ville_region_id_region) VALUES (6, 'Maple', 3, 3);
 INSERT INTO Six.quartier (id_quartier, nom_quartier, ville_id_ville, ville_region_id_region) VALUES (7, 'Delrex', 4, 3);
-INSERT INTO Six.quartier (id_quartier, nom_quartier, ville_id_ville, ville_region_id_region) VALUES (8 'Meadowglen', 4, 3);
+INSERT INTO Six.quartier (id_quartier, nom_quartier, ville_id_ville, ville_region_id_region) VALUES (8, 'Meadowglen', 4, 3);
 INSERT INTO Six.quartier (id_quartier, nom_quartier, ville_id_ville, ville_region_id_region) VALUES (9, 'Cornell', 5, 4);
 INSERT INTO Six.quartier (id_quartier, nom_quartier, ville_id_ville, ville_region_id_region) VALUES (10, 'Markville', 5, 4);
 INSERT INTO Six.quartier (id_quartier, nom_quartier, ville_id_ville, ville_region_id_region) VALUES (11, 'Clarke', 6, 3);
