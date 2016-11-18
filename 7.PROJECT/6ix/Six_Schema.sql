@@ -31,7 +31,7 @@ CREATE TABLE Six.quartier (
   id_quartier INT(11) NOT NULL,
   nom_quartier VARCHAR(45) NOT NULL,
   ville_id_ville INT(11) NOT NULL,
-  ville_region_id_region INT(11) NOT NULL,
+  /*ville_region_id_region INT(11) NOT NULL,*/
   PRIMARY KEY (id_quartier, ville_id_ville/*, ville_region_id_region*/),
   INDEX fk_quartier_ville1_idx (ville_id_ville ASC/*, ville_region_id_region ASC*/),
   CONSTRAINT fk_quartier_ville1

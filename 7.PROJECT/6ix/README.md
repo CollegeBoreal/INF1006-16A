@@ -17,14 +17,14 @@ $ docker exec -i some-mysql mysql -u root -p$MYSQL_ROOT_PASSWORD -e "grant all o
 ```
 ### Commande pour ajouter la structure de la base de donne sur mysql
 ```
-$ $ docker exec -i some-mysql  mysql -u etudiants -petudiants_1 Six < ~/Developer/Docker/INF1006-16A/7.PROJECT/6ix/Six_Schema.sql
+$ docker exec -i some-mysql  mysql -u etudiants -petudiants_1 Six < ~/Developer/Docker/INF1006-16A/7.PROJECT/6ix/Six_Schema.sql
 ```
 ### Commande pour ajouter les donnes dans la table 
 ```
 $ docker exec -i some-mysql  mysql -u etudiants -petudiants_1 Six < ~/Developer/Docker/INF1006-16A/7.PROJECT/6ix/Six_data.sql
 ```
 ### Commande pour mysqldump
-```
+``` 
 $ docker exec some-mysql sh -c 'exec mysqldump Six -u root -p"$MYSQL_ROOT_PASSWORD"' > ./dump-Six.sql
 ```
 ### Drop la base de donnee Six
@@ -37,5 +37,10 @@ mysql> drop table region;
 ```
 ### Commade join 
 ```
-mysql> select from 
+mysql>
+Select ville.nom_ville as Ville, region.nom_region as Region
+from ville 
+left join region
+on ville.id_ville=region.id_region
+order by ville.nom_ville;
 ```
