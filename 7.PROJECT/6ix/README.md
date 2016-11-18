@@ -7,13 +7,21 @@ La base de donnee classe les villes par 3 tables; regions, villes et quartiers.
 
 ![alt tag](https://github.com/CollegeBoreal/INF1006-16A/blob/Gary/7.PROJECT/6ix/Six.png)
 
+### Creation d'un utilisateur 
+```
+mysql> create user 'etudiants'@'localhost' identified by 'etudiants_1';
+```
+### Donner les droits a l'utilisateur 
+```
+mysql> grant all on etudiants.* to 'etudiants'@'%' identified by 'etudiants_1';
+```
 ### Commande qui sert a creer la base de donnee Six 
 ```
 $ docker exec -it some-mysql mysql -u root -p$MYSQL_ROOT_PASSWORD -e "create database Six;"
 ```
-### Commande pour ajouter Grant all on etudiant 
+### Commande pour donner les droits sur la base de donnee Six a l'utilisateur 'etudiants' 
 ```
-$ docker exec -i some-mysql mysql -u root -p$MYSQL_ROOT_PASSWORD -e "grant all on Six.* to 'etudiants'@'%' identified by 'etudiants_1';" 
+$ docker exec -i some-mysql mysql -u root -p$MYSQL_ROOT_PASSWORD -e "grant all privileges on Six.* to 'etudiants'@'%' identified by 'etudiants_1';" 
 ```
 ### Commande pour ajouter la structure de la base de donne sur mysql
 ```
@@ -35,7 +43,7 @@ mysql> drop database Six;
 ```
 mysql> drop table region;
 ```
-### Commade join 
+### Commande join 
 ```
 mysql>
 Select ville.nom_ville as Ville, region.nom_region as Region
