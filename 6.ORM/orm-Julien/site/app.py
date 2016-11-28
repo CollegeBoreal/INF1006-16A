@@ -2,6 +2,8 @@ from flask import Flask
 from redis import Redis
 
 import json
+import MySQLdb 
+
 
 app = Flask(__name__)
 redis = Redis(host='redis', port=6379)
@@ -9,6 +11,26 @@ redis = Redis(host='redis', port=6379)
 @app.route('/')
 def index():
     return 'Index Page'
+
+@app.route('/test')
+def test():
+
+   cnx = MySQLdb.connect(user='ircodes', passwd='ircodes_1', host='mysql', db='ircodes')
+   cursor = cnx.cursor()
+   list = []
+   query = ("SELECT * FROM BRAND")
+
+   cursor.execute(query)
+
+   cursor.close()
+   cnx.close()
+
+   for (id, brands) in cursor:
+      list.append("{}'s id is {}".format(brands,id)
+   )
+
+   return(list[:])
+
 
 @app.route('/hello')
 def hello():
