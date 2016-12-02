@@ -7,6 +7,8 @@ La base de donnee classe les villes par 3 tables; regions, villes et quartiers.
 
 ![alt tag](https://github.com/CollegeBoreal/INF1006-16A/blob/Gary/7.PROJECT/6ix/Six.png)
 
+### Deuxieme plan 
+![alt tag](https://github.com/CollegeBoreal/INF1006-16A/blob/Gary/7.PROJECT/6ix/Six_2.png)
 ### Acceder aux bases de donne mysql, 
 ```
 mysql> docker exec -it some-mysql bash
