@@ -9,8 +9,7 @@ $ docker exec -it some-mysql mysql -u root -p -e "create database ircodes;"
 .. créer les utilisateurs
 
 ```
-mysql> CREATE USER 'etudiants'@'localhost' IDENTIFIED BY 'etudiants_1';
-mysql> GRANT ALL ON etudiants.* TO 'etudiants'@'localhost';
+$ docker exec -i some-mysql mysql -u root -p$MYSQL_ROOT_PASSWORD -e "grant all privileges on ircodes.* to 'ircodes'@'%' identified by 'ircodes_1';"
 ```
 
 .. Charger la base
