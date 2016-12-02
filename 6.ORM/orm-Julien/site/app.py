@@ -18,6 +18,7 @@ def test():
    cnx = MySQLdb.connect(user='ircodes', passwd='ircodes_1', host='mysql', db='ircodes')
    cursor = cnx.cursor()
    list = []
+   myVar = ""
    query = ("SELECT * FROM BRAND")
 
    cursor.execute(query)
@@ -26,10 +27,11 @@ def test():
    cnx.close()
 
    for (id, brands) in cursor:
-      list.append("{}'s id is {}".format(brands,id)
+      list.append({'id':id,'brands':brands})
+      myVar = list
    )
-
-   return(list[:])
+   
+   return(myVar)
 
 
 @app.route('/hello')
