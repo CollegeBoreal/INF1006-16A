@@ -447,3 +447,14 @@ INSERT INTO `ircodes`.`BRAND` (`id`, `brand`) VALUES ('447', 'Zenith Radio');
 INSERT INTO `ircodes`.`BRAND` (`id`, `brand`) VALUES ('448', 'Zonda');
 
 -- typeMODELTYPE
+INSERT INTO `ircodes`.`MODELTYPE` (`id`,`model_type`,`BRAND_ID`) VALUES ('1','TV','1');
+
+-- MODEL
+INSERT INTO `ircodes`.`MODEL` (`id`,`model`,`MODELTYPE_ID`) VALUES ('1','model1','1');
+
+-- codename
+
+INSERT INTO `ircodes`.`CODENAME` (`id`,`codename`) VALUES ('1','Power');
+
+--codes 
+INSERT INTO `ircodes`.`CODES` (`MODELTYPE_ID`,`CODENAME_ID`,`codes`) VALUES ('1','1','324AF');
