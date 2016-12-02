@@ -454,7 +454,7 @@ INSERT INTO `ircodes`.`MODEL` (`id`,`model`,`MODELTYPE_ID`) VALUES ('1','model1'
 
 -- codename
 
-INSERT INTO `ircodes`.`CODENAME` (`id`,`codename`) VALUES ('1','Power');
+INSERT INTO `ircodes`.`CODENAMES` (`id`,`codename`) VALUES ('1','Power');
 
 --codes 
 INSERT INTO `ircodes`.`CODES` (`MODELTYPE_ID`,`CODENAME_ID`,`codes`) VALUES ('1','1','324AF');
