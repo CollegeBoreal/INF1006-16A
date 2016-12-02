@@ -29,7 +29,6 @@ def test():
    for (id, brands) in cursor:
       list.append({'id':id,'brands':brands})
       myVar = list
-   )
    
    return(myVar)
 
