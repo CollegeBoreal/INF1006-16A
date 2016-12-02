@@ -32,11 +32,11 @@ def about():
 def mysql():
     cur = db.cursor()
     liste = []
-    cur.execute("Select * from region;")
+    cur.execute("Select * from ville;")
     for row in cur.fetchall():
         liste.append(str(row[0])+','+ str(row[1])+','+ str(row[2]))
     db.close()
-    return liste 
+    return json.dumps(liste)
 
 if __name__ == "__main__":
    app.run(host="0.0.0.0", debug=True)
