@@ -1,6 +1,6 @@
-# Prerequisites
+# Guide d'installation
 
-.. créer une base de données
+.. Créer une base de données
 
 ```
 $ docker exec -it some-mysql mysql -u root -p -e "create database ircodes;"
