@@ -1,0 +1,17 @@
+version: '2'
+services:
+   web:
+      build: site
+      ports:
+       - "5000:5000"
+      depends_on:
+       - redis
+       - mysql
+   
+   mysql:
+     image: mysql
+     environment:
+      - MYSQL_ROOT_PASSWORD=password
+
+   redis:
+      image: redis
