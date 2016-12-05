@@ -35,9 +35,47 @@ def mysql():
     cur.execute("Select * from ville;")
     for row in cur.fetchall():
         liste.append(str(row[0])+','+ str(row[1])+','+ str(row[2]))
+    liste1 = []
+    cur.execute("Select * from quartier;")
+    for row in cur.fetchall():
+        liste1.append(str(row[0])+','+ str(row[1])+','+ str(row[2]))
+    liste2 = []
+    cur.execute("Select * from region;")
+    for row in cur.fetchall():
+        liste2.append(str(row[0])+','+ str(row[1]))
+    
     db.close()
-    return json.dumps(liste)
+    return json.dumps((liste) "," (liste1) "," (liste2))
 
 if __name__ == "__main__":
    app.run(host="0.0.0.0", debug=True)
-    
+
+
+# cur = db.cursor()
+#     liste = []
+#     cur.execute("Select * from ville;")
+#     for row in cur.fetchall():
+#         liste.append(str(row[0])+','+ str(row[1])+','+ str(row[2]))
+#     liste1 = []
+#     cur.execute("Select * from quartier;")
+#     for row in cur.fetchall():
+#         liste1.append(str(row[0])+','+ str(row[1])+','+ str(row[2]))
+#     liste2 = []
+#     cur.execute("Select * from region;")
+#     for row in cur.fetchall():
+#         liste2.append(str(row[0])+','+ str(row[1]))
+#     
+#     db.close()
+#     return json.dumps(liste,liste1,liste2)
+
+# ORIGINAL MARCHE
+# @app.route('/mysql')
+# def mysql():
+#     cur = db.cursor()
+#     liste = []
+#     cur.execute("Select * from ville;")
+#     for row in cur.fetchall():
+#         liste.append(str(row[0])+','+ str(row[1])+','+ str(row[2]))
+#     db.close()
+#     return json.dumps(liste)
+
