@@ -1,0 +1,11 @@
+version: '2'
+services:
+   web:
+      build: site
+      ports:
+       - "7000:5000"
+      depends_on:
+       - influxdb
+   
+   influxdb:
+      image: influxdb
