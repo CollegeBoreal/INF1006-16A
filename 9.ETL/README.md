@@ -32,6 +32,14 @@ Prerequis: Utiliser votre orchestration actuelle (i.e. Docker Compose sur IceHou
 
 ![alt tag](https://github.com/CollegeBoreal/INF1006-16A/blob/master/9.ETL/BTC_joli.png)
 
+## Ecrire dand la DB
+```
+$ curl -X POST -d '[{"name":"foo","columns":["val"],"points":[[33]]}]' 'http://localhost:8086/db/exampledb/series?u=root&p=root
+$ curl -G 'http://localhost:8086/db/exampledb/series?u=root&p=root' --data-urlencode "q=select * from foo"
+```
+
 Ref:   
 https://docs.python.org/2/howto/urllib2.html (Load)     
 https://www.analyticsvidhya.com/blog/2016/02/time-series-forecasting-codes-python/  (Math)   
+http://davidanguita.name/articles/simple-data-visualization-stack-with-docker-influxdb-and-grafana/
+
