@@ -46,8 +46,8 @@ def series():
 @app.route('/write_data_points')
 def series():
 #   client.create_database('example')   # Prepopulated
-   client.write_points(data_points)
-   result = client.query('select value from score;')
+   clientW.write_points(data_points)
+   result = clientW.query('select value from score;')
    return "{0}".format(result)
 
 if __name__ == "__main__":
