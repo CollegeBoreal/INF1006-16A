@@ -3,15 +3,25 @@ services:
    web:
       build: site
       ports:
-       - "5000:5000"
+       - "7000:5000"
       depends_on:
-       - redis
-       - mysql
+       - influxdb
    
-   mysql:
-     image: mysql
-     environment:
-      - MYSQL_ROOT_PASSWORD=password
+   influxdb:
+      image: tutum/influxdb
+      ports:
+       - "8083:8083"
+       - "8086:8086"
+      expose:
+       - "8090"
+       - "8099"
+      environment:
+       - PRE_CREATE_DB="wadus"
 
-   redis:
-      image: redis
+   grafana:
+      image: grafana/grafana
+      ports:
+       - "3000:3000"
+      depends_on:
+       - influxdb
+
