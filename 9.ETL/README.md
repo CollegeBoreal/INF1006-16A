@@ -35,3 +35,4 @@ Prerequis: Utiliser votre orchestration actuelle (i.e. Docker Compose sur IceHou
 Ref:   
 https://docs.python.org/2/howto/urllib2.html (Load)     
 https://www.analyticsvidhya.com/blog/2016/02/time-series-forecasting-codes-python/  (Math)   
+http://davidanguita.name/articles/simple-data-visualization-stack-with-docker-influxdb-and-grafana/
