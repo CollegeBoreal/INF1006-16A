@@ -32,5 +32,6 @@ Prerequis: Utiliser votre orchestration actuelle (i.e. Docker Compose sur IceHou
 
 ![alt tag](https://github.com/CollegeBoreal/INF1006-16A/blob/master/9.ETL/BTC_joli.png)
 
-Ref:
-https://www.analyticsvidhya.com/blog/2016/02/time-series-forecasting-codes-python/
+Ref:   
+https://docs.python.org/2/howto/urllib2.html (Load)     
+https://www.analyticsvidhya.com/blog/2016/02/time-series-forecasting-codes-python/  (Math)   
