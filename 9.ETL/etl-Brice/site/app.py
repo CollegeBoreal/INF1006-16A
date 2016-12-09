@@ -23,12 +23,12 @@ json_body = [
 
 data_points = [
     {
-        series: "score",
-        values: { value: rand(200) }
+        "series": "score",
+        "values": { "value": "rand(200)" }
     },
     {
-        series: "searches",
-        values: { value: rand(200) }
+        "series": "searches",
+        "values": { "value": "rand(200)" }
     }
 ]
 
@@ -44,7 +44,7 @@ def series():
    return "{0}".format(result)
 
 @app.route('/write_data_points')
-def series():
+def writeDataPoints():
 #   client.create_database('example')   # Prepopulated
    clientW.write_points(data_points)
    result = clientW.query('select value from score;')
