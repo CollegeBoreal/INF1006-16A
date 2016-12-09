@@ -2,6 +2,9 @@ from flask import Flask
 from influxdb import InfluxDBClient
 
 import json
+import urllib2
+response = urllib2.urlopen('http://finance.yahoo.com/d/quotes.csv?s=AAPL+GOOG+MSFT&f=nab')
+html = response.read()
 
 app = Flask(__name__)
 
