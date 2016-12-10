@@ -31,3 +31,20 @@ $ docker exec -i some-mysql  mysql -u root -p${MYSQL_ROOT_PASSWORD} sakila < ~/s
 $ docker exec -i some-mysql  mysql -u root -p${MYSQL_ROOT_PASSWORD} sakila < ~/sakila-db/sakila-data.sql
 ```
 
+# A reviser
+
+* NOTIONS DE LANGUAGE (DDL-DML-DCL): http://www.w3schools.in/mysql/ddl-dml-dcl/
+
+Notes plus specifiques: 
+
+
+* COMMANDES SQL du DML: http://www.w3schools.com/sql/
+
+
+* COMMANDE MySQL EXPLAIN du DML:
+```
+mysql> EXPLAIN SELECT return_date FROM rental;
+mysql> EXPLAIN SELECT rental_id FROM rental;
+```
+* TCL, DML( LOCK TABLE, CALL, MERGE):
+   Ignorer juste survole en cours
