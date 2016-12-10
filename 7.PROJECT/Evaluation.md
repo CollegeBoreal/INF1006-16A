@@ -13,7 +13,10 @@
 2. Structure fichier de la base en .sql et fichiers de donnees en .dump
 3. Scripts pour aider le professeur a charger les donnees. (considerer some-mysql comme nom de conteneur)
 
-| Mac |(1)|(2)|(3)|(4)|(5)|  Comments    |
-|----:|:-:|:-:|:-:|:-:|:-:|--------------|  
-|   1 | X | X | X | X | X |              |    
-|-----|---|---|---|---|---|--------------|  
+## Notation 
+
+(1 Faible - 5 Tres Bon)
+
+| ID  |DDL1|DDL2|DDL3|DDL4|DML1|DML2|DML3|  Comments    |
+|----:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|--------------|  
+|     |    |    |    |    |    |    |    |              |  
