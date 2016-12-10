@@ -15,11 +15,14 @@ Examples:
 mysql> EXPLAIN SELECT return_date FROM rental;
 mysql> EXPLAIN SELECT rental_id FROM rental;
 ```
+
+### A ignorer
+
 * TCL, DML( LOCK TABLE, CALL, MERGE):  
-   A Ignorer juste survole en cours
+   Juste survole en cours
    
 * Programmation Python:  
-   A Ignorer ce cours est sur SQL
+   Ce cours est sur SQL
 
 
 # Utiliser Sakila pour vos revisions 
