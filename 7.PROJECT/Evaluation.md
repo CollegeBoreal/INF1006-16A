@@ -19,5 +19,5 @@
 
 | ID  |DDL1|DDL2|DDL3|DDL4|DML1|DML2|DML3|  Comments    (7 * 5 = 35)             |
 |----:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|---------------------------------------|  
-| 6ix | 2  | 3  | 4  |  2 |  4 | 4  |  4 |  Ou est la table endroits? i.e. 3FN   |  
+| 6ix | 2  | 3  | 4  |  2 |  3 | 3  |  4 |  Ou est la table endroits? i.e. 3FN   |  
 | IR  | 2  | 3  | 4  |  2 |  4 | 4  |  4 |                                       |  
