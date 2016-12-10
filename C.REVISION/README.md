@@ -9,6 +9,8 @@ Notes plus specifiques:
 
 
 * COMMANDE MySQL EXPLAIN du DML:
+
+Examples:
 ```
 mysql> EXPLAIN SELECT return_date FROM rental;
 mysql> EXPLAIN SELECT rental_id FROM rental;
