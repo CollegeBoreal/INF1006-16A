@@ -25,7 +25,8 @@ $ docker exec -i some-mysql mysql -u root -p${MYSQL_ROOT_PASSWORD} \
 ```
 
 ```
-$ curl -o ~/sakila-db.tar.gz http://downloads.mysql.com/docs/sakila-db.tar.gz; tar zxvf ~/sakila-db.tar.gz --directory ~/
+$ curl -o ~/sakila-db.tar.gz http://downloads.mysql.com/docs/sakila-db.tar.gz; \
+          tar zxvf ~/sakila-db.tar.gz --directory ~/
 ```
 
 ```
