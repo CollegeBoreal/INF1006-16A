@@ -1,0 +1,24 @@
+<html>
+<head>
+<script src="http://cdn.jsdelivr.net/jwplayer/7.1/jwplayer.js"></script>
+
+</head>
+<body>
+
+<div id="player"></div>
+
+<script type="text/javascript">
+
+   jwplayer('player').setup({
+        playlist:[{
+	       file:"http://media.crave.fm:1935/vod/mp3:scott-joplin-peacherine-rag.mp3/playlist.m3u8",
+	       title:"Sintel",
+	       description:"This is a HLS stream!",
+	       type:"hls"
+	  }],
+	dash: 'shaka',
+	autostart: true
+	});
+</script>
+
+</html>
