@@ -16,7 +16,10 @@ mysql> EXPLAIN SELECT return_date FROM rental;
 mysql> EXPLAIN SELECT rental_id FROM rental;
 ```
 * TCL, DML( LOCK TABLE, CALL, MERGE):  
-   Ignorer juste survole en cours
+   A Ignorer juste survole en cours
+   
+* Programmation Python:  
+   A Ignorer ce cours est sur SQL
 
 
 # Utiliser Sakila pour vos revisions 
