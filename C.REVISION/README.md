@@ -25,8 +25,8 @@ mysql> EXPLAIN SELECT rental_id FROM rental;
    Ce cours est sur SQL
 
 
-# Utiliser Sakila pour vos revisions 
-   (Inspirer vous des vues (views) sans le fichier script SQL)
+# Sakila sera utilise pendant le test. 
+   (i.e. Inspirer vous des vues (views) sans le fichier script SQL pour les JOINs)
 
 ## Installer MySQL
 
