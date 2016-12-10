@@ -15,7 +15,7 @@ Examples:
 mysql> EXPLAIN SELECT return_date FROM rental;
 mysql> EXPLAIN SELECT rental_id FROM rental;
 ```
-* TCL, DML( LOCK TABLE, CALL, MERGE):
+* TCL, DML( LOCK TABLE, CALL, MERGE):  
    Ignorer juste survole en cours
 
 
