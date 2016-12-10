@@ -15,15 +15,18 @@ $ docker exec -it some-mysql mysql -u root -p${MYSQL_ROOT_PASSWORD} -e "create d
 ```
 
 ```
-$ docker exec -i some-mysql mysql -u root -p${MYSQL_ROOT_PASSWORD} -e "grant all privileges on sakila.* to 'etudiants'@'localhost' identified by 'etudiants_1';"
+$ docker exec -i some-mysql mysql -u root -p${MYSQL_ROOT_PASSWORD} \
+     -e "grant all privileges on sakila.* to 'etudiants'@'localhost' identified by 'etudiants_1';"
 ```
 
 ```
-$ docker exec -i some-mysql mysql -u root -p${MYSQL_ROOT_PASSWORD} -e "grant all privileges on sakila.* to 'etudiants'@'%' identified by 'etudiants_1';"
+$ docker exec -i some-mysql mysql -u root -p${MYSQL_ROOT_PASSWORD} \
+     -e "grant all privileges on sakila.* to 'etudiants'@'%' identified by 'etudiants_1';"
 ```
 
 ```
-$ curl -o ~/sakila-db.tar.gz http://downloads.mysql.com/docs/sakila-db.tar.gz; tar zxvf ~/sakila-db.tar.gz --directory ~/
+$ curl -o ~/sakila-db.tar.gz http://downloads.mysql.com/docs/sakila-db.tar.gz; \
+          tar zxvf ~/sakila-db.tar.gz --directory ~/
 ```
 
 ```
