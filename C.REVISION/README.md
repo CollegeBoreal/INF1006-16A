@@ -19,7 +19,8 @@ mysql> EXPLAIN SELECT rental_id FROM rental;
    Ignorer juste survole en cours
 
 
-# Utiliser Sakila pour vos revisions (Inspirer vous des vues (views))
+# Utiliser Sakila pour vos revisions 
+   (Inspirer vous des vues (views) sans le fichier script SQL)
 
 ## Installer MySQL
 
