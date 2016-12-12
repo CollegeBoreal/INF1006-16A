@@ -62,3 +62,6 @@ $ docker exec -i some-mysql  mysql -u root -p${MYSQL_ROOT_PASSWORD} sakila < ~/s
 $ docker exec -i some-mysql  mysql -u root -p${MYSQL_ROOT_PASSWORD} sakila < ~/sakila-db/sakila-data.sql
 ```
 
+## Examples
+
+https://www.ntu.edu.sg/home/ehchua/programming/sql/SampleDatabases.html
