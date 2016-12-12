@@ -39,7 +39,7 @@ $ docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD} -p 
 ```
 
 ```
-$ docker exec -it some-mysql mysql -u root -p${MYSQL_ROOT_PASSWORD} -e "create database sakila;"
+$ docker exec -i some-mysql mysql -u root -p${MYSQL_ROOT_PASSWORD} -e "create database sakila;"
 ```
 
 ```
